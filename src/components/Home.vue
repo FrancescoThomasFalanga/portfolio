@@ -35,7 +35,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="header">
     <nav class="container-fluid">
       <div class="logo">
         <a href="">Ciccio</a>
@@ -64,7 +64,7 @@ export default {
         </h4>
 
         <button class="ui-btn">
-          <span> About me </span>
+          <span> About me <i class="fa-regular fa-circle-down"></i></span>
         </button>
 
         <div class="social">
@@ -86,6 +86,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.header {
+  height: 100vh;
+  width: 100%;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -94,6 +99,8 @@ nav {
   align-items: center;
   padding: 16px 0;
   box-shadow: 0px 3px 2px rgb(197, 197, 197);
+  background-color: white;
+  z-index: 3;
   .logo {
     font-size: 20px;
     font-weight: bold;
@@ -171,7 +178,7 @@ nav {
       --btn-hover-bg: #011aff;
       --btn-transition: 0.3s;
       --btn-letter-spacing: 0.1rem;
-      --btn-animation-duration: 1.2s;
+      --btn-animation-duration: 2.2s;
       --btn-shadow-color: rgba(0, 0, 0, 0.568);
       --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
       --hover-btn-color: #fac921;
@@ -350,8 +357,6 @@ nav {
       margin: 0;
 
       li {
-        // background-color: black;
-        // padding: 10px;
         border-radius: 50%;
 
         a {
