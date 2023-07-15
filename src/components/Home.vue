@@ -35,7 +35,7 @@ export default {
 </script>
 
 <template>
-  <div class="header">
+  <div class="header" id="0">
     <nav class="container-fluid">
       <div class="logo">
         <a href="">Ciccio</a>
@@ -47,7 +47,7 @@ export default {
             <a
               :class="index == activeIndex ? 'active' : ''"
               @click="activeIndex = index"
-              href="#"
+              :href="'#' + index"
               >{{ link }}</a
             >
           </li>
