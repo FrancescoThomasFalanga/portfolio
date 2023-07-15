@@ -35,6 +35,15 @@ export default {
             ><em>Email : </em>francescofalanga.dev@gmail.com</span
           >
           <span><em>Place : </em>Catania, Sicily, Italy</span>
+
+          <div class="resume mt-3 d-flex align-items-center gap-3">
+            <a class="ui-btn" href="../../resume.pdf" target="_blank">
+              <span>Resume</span>
+            </a>
+            <a class="ui-btn" href="../../resume.pdf" download
+              ><span>Download It</span></a
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -99,6 +108,28 @@ export default {
         color: #0d25ff;
         font-weight: bold;
         font-size: 14px;
+      }
+    }
+  }
+
+  .resume {
+    .ui-btn {
+      text-decoration: none;
+    }
+
+    .download {
+      padding: 20px;
+      background-color: #002b75;
+      border-radius: 100%;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+
+      &:hover {
+        background-color: #0d25ff;
       }
     }
   }
