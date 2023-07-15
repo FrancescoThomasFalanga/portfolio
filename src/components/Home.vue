@@ -350,25 +350,27 @@ nav {
       margin: 0;
 
       li {
-        background-color: black;
-        padding: 10px;
+        // background-color: black;
+        // padding: 10px;
         border-radius: 50%;
 
         a {
           text-decoration: none;
-          i {
-            color: #00d9ff;
-            width: 26px;
-            height: 26px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 20px;
+          padding: 20px;
+          border-radius: 100%;
+          background-color: black;
+          color: #00d9ff;
+          transition: color 0.4s;
+          width: 26px;
+          height: 26px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 20px;
 
-            &:hover {
-              transition: color 0.4s;
-              color: white;
-            }
+          &:hover {
+            transition: color 0.4s;
+            color: white;
           }
         }
       }
