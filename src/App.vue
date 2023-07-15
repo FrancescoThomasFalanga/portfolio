@@ -1,5 +1,6 @@
 <script>
 import Home from "./components/Home.vue";
+import AboutMe from "./components/AboutMe.vue";
 
 export default {
   data() {
@@ -8,6 +9,7 @@ export default {
 
   components: {
     Home,
+    AboutMe,
   },
 };
 </script>
@@ -15,6 +17,7 @@ export default {
 <template>
   <div>
     <Home></Home>
+    <AboutMe></AboutMe>
   </div>
 </template>
 
