@@ -60,12 +60,13 @@ export default {
           <span><em>Place : </em>Catania, Sicily, Italy</span>
 
           <div class="resume mt-3 d-flex align-items-center gap-3">
-            <a class="ui-btn" href="../../resume.pdf" target="_blank">
+            <a
+              class="ui-btn"
+              href="https://drive.google.com/file/d/1I3Ey1vBjuSFyqXAT7NOCmZfeCQVkbloP/view?usp=sharing"
+              target="_blank"
+            >
               <span>Resume</span>
             </a>
-            <a class="ui-btn" href="../../resume.pdf" download
-              ><span>Download It</span></a
-            >
           </div>
         </div>
       </div>
