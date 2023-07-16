@@ -4,7 +4,9 @@ import AboutMe from "./components/AboutMe.vue";
 import Skills from "./components/Skills.vue";
 import Education from "./components/Education.vue";
 import Projects from "./components/Projects.vue";
+import Experience from "./components/Experience.vue";
 import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   data() {
@@ -23,7 +25,9 @@ export default {
     Skills,
     Education,
     Projects,
+    Experience,
     Contact,
+    Footer,
   },
 
   methods: {
@@ -52,7 +56,9 @@ export default {
     <Skills></Skills>
     <Education></Education>
     <Projects></Projects>
+    <Experience></Experience>
     <Contact></Contact>
+    <Footer></Footer>
 
     <button @click="goUp()" class="go-up" v-show="!isHome">
       <i class="fa-solid fa-circle-up"></i>
