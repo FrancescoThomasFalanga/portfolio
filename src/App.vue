@@ -1,12 +1,6 @@
 <script>
-import Home from "./components/Home.vue";
-import AboutMe from "./components/AboutMe.vue";
-import Skills from "./components/Skills.vue";
-import Education from "./components/Education.vue";
-import Projects from "./components/Projects.vue";
-import Experience from "./components/Experience.vue";
-import Contact from "./components/Contact.vue";
-import Footer from "./components/Footer.vue";
+import Navbar from "./Partials/Navbar.vue";
+import Footer from "./Partials/Footer.vue";
 
 export default {
   data() {
@@ -20,13 +14,7 @@ export default {
   },
 
   components: {
-    Home,
-    AboutMe,
-    Skills,
-    Education,
-    Projects,
-    Experience,
-    Contact,
+    Navbar,
     Footer,
   },
 
@@ -51,13 +39,8 @@ export default {
 
 <template>
   <div>
-    <Home></Home>
-    <AboutMe></AboutMe>
-    <Skills></Skills>
-    <Education></Education>
-    <Projects></Projects>
-    <Experience></Experience>
-    <Contact></Contact>
+    <Navbar></Navbar>
+    <router-view></router-view>
     <Footer></Footer>
 
     <button @click="goUp()" class="go-up" v-show="!isHome">

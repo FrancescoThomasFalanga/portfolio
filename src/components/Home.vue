@@ -2,16 +2,6 @@
 export default {
   data() {
     return {
-      links: [
-        "Home",
-        "About",
-        "Skills",
-        "Education",
-        "Projects",
-        "Experience",
-        "Contact",
-      ],
-
       socials: [
         {
           icon: "fa-brands fa-linkedin",
@@ -27,8 +17,6 @@ export default {
         },
         { icon: "fa-brands fa-twitter", goTo: "https://twitter.com/blade3124" },
       ],
-
-      activeIndex: 0,
     };
   },
 };
@@ -36,28 +24,9 @@ export default {
 
 <template>
   <div class="header" id="0">
-    <nav class="container-fluid">
-      <div class="logo">
-        <a href="">Ciccio</a>
-      </div>
-
-      <div class="links">
-        <ul>
-          <li v-for="(link, index) in links" :key="index">
-            <a
-              :class="index == activeIndex ? 'active' : ''"
-              @click="activeIndex = index"
-              :href="'#' + index"
-              >{{ link }}</a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
-
     <div class="jumbotron container">
       <div class="who-am-i">
-        <h1>Hy there,</h1>
+        <h1>Hey there,</h1>
         <h1>I'm Francesco <span style="color: orange">Falanga</span></h1>
         <h4>
           I Am a <span style="color: rgb(156, 0, 0)"> Web Developer </span>
@@ -96,66 +65,6 @@ export default {
 .header {
   height: 100vh;
   width: 100%;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 16px 0;
-  box-shadow: 0px 3px 2px rgb(197, 197, 197);
-  background-color: white;
-  z-index: 3;
-  .logo {
-    font-size: 20px;
-    font-weight: bold;
-
-    a {
-      text-decoration: none;
-      color: #002057;
-      transition: color 0.6s;
-
-      &:hover {
-        transition: all 0.6s;
-        color: orange;
-      }
-    }
-  }
-
-  .links {
-    ul {
-      display: flex;
-      gap: 20px;
-      padding: 0;
-      margin: 0;
-      list-style-type: none;
-
-      .active {
-        color: #011aff;
-        border-bottom: 2px solid #011aff;
-      }
-
-      li {
-        font-size: 18px;
-
-        a {
-          padding-bottom: 5px;
-          text-decoration: none;
-          color: #002057;
-          transition: color 0.3s linear;
-          font-weight: 500;
-
-          &:hover {
-            transition: all 0.3s linear;
-            color: #011aff;
-            border-bottom: 2px solid #011aff;
-          }
-        }
-      }
-    }
-  }
 }
 
 .jumbotron {

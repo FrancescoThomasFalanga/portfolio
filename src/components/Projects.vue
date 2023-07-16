@@ -15,7 +15,7 @@ export default {
 
     <div class="projects"></div>
 
-    <a class="ui-btn" href="#"><span>My Projects</span></a>
+    <a class="ui-btn" href="projects"><span>My Projects</span></a>
   </div>
 </template>
 
