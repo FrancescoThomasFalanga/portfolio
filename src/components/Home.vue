@@ -63,9 +63,13 @@ export default {
           I Am a <span style="color: rgb(156, 0, 0)"> Web Developer </span>
         </h4>
 
-        <button class="ui-btn">
+        <a
+          href="#1"
+          class="ui-btn"
+          style="width: fit-content; text-decoration: none"
+        >
           <span> About me <i class="fa-regular fa-circle-down"></i></span>
-        </button>
+        </a>
 
         <div class="social">
           <ul>
