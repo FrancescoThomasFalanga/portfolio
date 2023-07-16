@@ -52,7 +52,9 @@ export default {
   background-color: rgb(2, 26, 161);
   background-image: linear-gradient(rgb(0, 38, 255), rgb(51, 255, 0));
   width: 100%;
-  height: calc(100vh - 63px);
+  min-height: calc(100vh - 63px);
+  padding-bottom: 70px;
+  padding-top: 40px;
   position: relative;
   z-index: 2;
   box-shadow: 1px 3px 10px #41b883, 1px -3px 10px #181bcebe;

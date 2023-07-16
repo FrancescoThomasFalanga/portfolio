@@ -82,6 +82,7 @@ export default {
   position: relative;
   z-index: 2;
   margin-top: 60px;
+  padding-top: 60px;
 }
 .about-me {
   h2 {

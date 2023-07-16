@@ -83,7 +83,10 @@ export default {
       </div>
 
       <div class="my-img">
-        <img src="https://picsum.photos/500 " alt="" />
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/012/421/877/non_2x/3d-multitasking-man-free-png.png"
+          alt=""
+        />
       </div>
     </div>
   </div>
@@ -188,6 +191,8 @@ nav {
       filter: grayscale(0.5);
       transition: 0.3s linear;
       cursor: pointer;
+      max-width: 600px;
+      background-color: #ffa500;
     }
     img:hover {
       -webkit-mask-position: 7.5% 50%, 92.5% 50%;
