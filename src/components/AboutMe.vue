@@ -70,27 +70,14 @@ export default {
         </div>
       </div>
     </div>
-    <button @click="goUp()" class="go-up" v-show="!isHome">
-      <i class="fa-solid fa-circle-up"></i>
-    </button>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.go-up {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  border: none;
-  background-color: transparent;
-  font-size: 38px;
-  color: #41b883;
-}
-
 .mine {
   background-color: white;
   width: 100%;
-  height: calc(100vh - 63px);
+  height: calc(100vh);
   position: relative;
   z-index: 2;
   margin-top: 60px;
