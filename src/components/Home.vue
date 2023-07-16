@@ -23,7 +23,7 @@ export default {
 </script>
 
 <template>
-  <div class="header" id="0">
+  <div class="header" id="home">
     <div class="jumbotron container">
       <div class="who-am-i">
         <h1>Hey there,</h1>
@@ -33,7 +33,7 @@ export default {
         </h4>
 
         <a
-          href="#1"
+          href="#about"
           class="ui-btn"
           style="width: fit-content; text-decoration: none"
         >

@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-  <div class="mine" id="3">
+  <div class="mine" id="education">
     <h2>
       <i class="fa-solid fa-graduation-cap"></i>
       My <span style="color: #41b883">Education</span>

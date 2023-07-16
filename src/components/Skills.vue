@@ -37,7 +37,7 @@ export default {
 </script>
 
 <template>
-  <div class="mine" id="2">
+  <div class="mine" id="skills">
     <h2>
       <i class="fa-solid fa-laptop-code"></i>
       Skills and <span style="color: #59be3ac9">Abilities</span>

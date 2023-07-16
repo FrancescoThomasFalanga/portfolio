@@ -30,7 +30,7 @@ export default {
 </script>
 
 <template>
-  <div class="mine" id="1">
+  <div class="mine" id="about">
     <div class="container d-flex justify-content-center flex-column gap-5">
       <div class="about-me d-flex justify-content-center mt-4">
         <h2>

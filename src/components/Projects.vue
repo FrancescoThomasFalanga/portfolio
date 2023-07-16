@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-  <div class="mine" id="4">
+  <div class="mine" id="projects">
     <h2>
       <i class="fa-solid fa-diagram-project"></i>
       Projects <span style="color: #41b883">Made</span>

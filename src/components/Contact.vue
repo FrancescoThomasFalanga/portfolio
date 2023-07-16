@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-  <div class="mine" id="6">
+  <div class="mine" id="contact">
     <h2>
       <i class="fa-solid fa-envelope"></i>
       Get In <span style="color: #41b883">Touch</span>

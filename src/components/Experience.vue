@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-  <div class="mine" id="5">
+  <div class="mine" id="experience">
     <h2>
       <i class="fa-solid fa-briefcase"></i>
       My <span style="color: #41b883">Experience</span>

@@ -3,13 +3,13 @@ export default {
   data() {
     return {
       links: [
-        "Home",
-        "About",
-        "Skills",
-        "Education",
-        "Projects",
-        "Experience",
-        "Contact",
+        "home",
+        "about",
+        "skills",
+        "education",
+        "projects",
+        "experience",
+        "contact",
       ],
 
       activeIndex: 0,
@@ -30,8 +30,8 @@ export default {
           <a
             :class="index == activeIndex ? 'active' : ''"
             @click="activeIndex = index"
-            :href="'#' + index"
-            >{{ link }}</a
+            :href="'#' + link"
+            >{{ link.charAt(0).toUpperCase() + link.slice(1) }}</a
           >
         </li>
       </ul>
