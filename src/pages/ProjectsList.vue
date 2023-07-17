@@ -52,10 +52,20 @@ export default {
       Projects <span style="color: #23b244">Made</span>
     </h2>
     <div class="box-container"></div>
+
+    <router-link class="ui-btn" :to="{ name: 'home' }">
+      <span>Go Back</span>
+    </router-link>
   </div>
 </template>
 
 <style lang="scss" scoped>
+.ui-btn {
+  margin: 0 auto;
+  width: fit-content;
+  text-decoration: none;
+  padding: 20px 40px;
+}
 .mine {
   background-image: linear-gradient(blue, green);
   min-height: calc(90vh - 40px);
@@ -63,6 +73,7 @@ export default {
   position: relative;
   z-index: 2;
   padding-top: 70px;
+  padding-bottom: 20px;
 
   h2 {
     padding-top: 20px;
