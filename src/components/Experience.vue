@@ -20,6 +20,8 @@ export default {
         <span style="color: #41b883">A whole different world right?</span> So
         I'm looking forward to finding my first job.
       </p>
+
+      <h2 style="margin-top: 350px">IN PROGRESS</h2>
     </div>
   </div>
 </template>
@@ -27,12 +29,12 @@ export default {
 <style lang="scss" scoped>
 .mine {
   background-color: white;
-  min-height: auto;
   width: 100%;
+  height: calc(100vh);
   position: relative;
   z-index: 2;
-  //   margin-top: 60px;
-  padding-top: 70px;
+  // margin-top: 60px;
+  padding-top: 60px;
 
   h2 {
     text-align: center;

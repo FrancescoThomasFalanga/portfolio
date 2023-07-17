@@ -16,6 +16,28 @@ export default {
       isMenuOpen: false,
     };
   },
+
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+      const docHeight = document.documentElement.scrollHeight;
+      const scrollPercentage =
+        (scrollPosition / (docHeight - windowHeight)) * 100;
+
+      // Calcola l'indice attivo in base alla percentuale di scorrimento
+      const activeIndex = Math.floor(
+        scrollPercentage / (100 / this.links.length)
+      );
+      this.activeIndex = activeIndex;
+    },
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
 };
 </script>
 

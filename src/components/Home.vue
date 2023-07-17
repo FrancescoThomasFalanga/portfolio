@@ -82,6 +82,7 @@ export default {
     h1 {
       margin-bottom: 10px;
       font-size: 50px;
+      font-weight: bold;
     }
 
     h4 {
@@ -127,7 +128,7 @@ export default {
           padding: 20px;
           border-radius: 100%;
           background-color: black;
-          color: #00d9ff;
+          color: #8e99ff;
           transition: color 0.4s;
           width: 26px;
           height: 26px;
