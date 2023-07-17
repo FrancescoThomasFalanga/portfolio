@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Deliveboo",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "deliveboo",
+    "links": {
+      "view": "https://github.com/FrancescoThomasFalanga/progetto-finale",
+      "code": "https://github.com/FrancescoThomasFalanga/progetto-finale"
+    }
+  },
+  {
+    "name": "Barber Shop",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "barber-shop",
+    "links": {
+      "view": "https://ciccio-dev-avada.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/proj-html-vuejs"
+    }
+  },
+  {
+    "name": "Portfolio Idea",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "portfolio",
+    "links": {
+      "view": "https://ciccio-dev.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/laravel-api"
+    }
+  },
+  {
+    "name": "DC Comics",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "dc-comics",
+    "links": {
+      "view": "https://ciccio-dc-comics.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/vite-comics"
+    }
+  },
+  {
+    "name": "Netflix",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "boolflix",
+    "links": {
+      "view": "https://ciccio-dev-boolflix.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/vite-boolflix"
+    }
+  },
+  {
+    "name": "Whatsapp",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "boolzapp",
+    "links": {
+      "view": "https://ciccio-dev-boolzap.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/vue-boolzapp"
+    }
+  },
+  {
+    "name": "Yu-Gi-Oh",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "yu-gi-oh",
+    "links": {
+      "view": "https://ciccio-yu-gi-oh.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/vite-yu-gi-oh"
+    }
+  },
+  {
+    "name": "Todo List",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "todolist",
+    "links": {
+      "view": "https://ciccio-todolist.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/vue-todolist"
+    }
+  },
+  {
+    "name": "Simple Slider",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "slider",
+    "links": {
+      "view": "https://ciccio-slider.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/vue-slider"
+    }
+  },
+  {
+    "name": "Eat-n-split",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "eat-n-split",
+    "links": {
+      "view": "https://stunning-fairy-40790d.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/eat-n-split"
+    }
+  },
+  {
+    "name": "Travel List",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "travel-list",
+    "links": {
+      "view": "https://stirring-mooncake-356ee0.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/05-travel-list"
+    }
+  },
+  {
+    "name": "Pizza Menu",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "pizza-menu",
+    "links": {
+      "view": "https://joyful-parfait-8f7749.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/03-pizza-menu"
+    }
+  },
+  {
+    "name": "Discord",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "discord",
+    "links": {
+      "view": "https://ciccio-dev-discordreply.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/htmlcss-discord"
+    }
+  },
+  {
+    "name": "Minefield",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "minefield",
+    "links": {
+      "view": "https://ciccio-dev-campominato.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/js-campominato-dom"
+    }
+  },
+  {
+    "name": "Boolando",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "boolando",
+    "links": {
+      "view": "https://candid-biscuit-599a45.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/html-css-boolando"
+    }
+  },
+  {
+    "name": "Simon",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "simon",
+    "links": {
+      "view": "https://endearing-alpaca-159779.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/js-simon"
+    }
+  },
+  {
+    "name": "Spotify",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "spotify",
+    "links": {
+      "view": "https://voluble-beijinho-edb2b6.netlify.app/",
+      "code": "https://github.com/FrancescoThomasFalanga/html-css-spotifyweb"
+    }
+  }
+]
