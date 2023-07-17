@@ -125,6 +125,7 @@ export default {
   z-index: 2;
   //   margin-top: 60px;
   padding-top: 70px;
+  padding-bottom: 40px;
 
   h2 {
     text-align: center;

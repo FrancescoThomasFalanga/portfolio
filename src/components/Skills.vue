@@ -53,11 +53,12 @@ export default {
   background-image: linear-gradient(rgb(0, 38, 255), rgb(51, 255, 0));
   box-shadow: 1px 3px 10px #41b883, 1px -3px 10px #181bcebe;
   width: 100%;
-  height: calc(100vh);
+  height: 100%;
   position: relative;
   z-index: 2;
   // margin-top: 60px;
   padding-top: 60px;
+  padding-bottom: 100px;
 
   h2 {
     padding-top: 30px;
