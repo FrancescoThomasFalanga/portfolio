@@ -37,7 +37,7 @@ export default {
           <a
             :class="index == activeIndex ? 'active' : ''"
             @click="activeIndex = index"
-            :href="'#' + link"
+            :href="'/#' + link"
             >{{ link.charAt(0).toUpperCase() + link.slice(1) }}</a
           >
         </li>
