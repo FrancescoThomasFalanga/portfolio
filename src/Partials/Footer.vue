@@ -46,43 +46,43 @@ export default {
 
           <ul>
             <li>
-              <a href="#0">
+              <a href="#home">
                 <i class="fa-solid fa-chevron-right"></i>
                 Home</a
               >
             </li>
             <li>
-              <a href="#1">
+              <a href="#about">
                 <i class="fa-solid fa-chevron-right"></i>
                 About</a
               >
             </li>
             <li>
-              <a href="#2">
+              <a href="#skills">
                 <i class="fa-solid fa-chevron-right"></i>
                 Skills</a
               >
             </li>
             <li>
-              <a href="#3">
+              <a href="#education">
                 <i class="fa-solid fa-chevron-right"></i>
                 Education</a
               >
             </li>
             <li>
-              <a href="#4">
+              <a href="#projects">
                 <i class="fa-solid fa-chevron-right"></i>
                 Work</a
               >
             </li>
             <li>
-              <a href="#5">
+              <a href="#experience">
                 <i class="fa-solid fa-chevron-right"></i>
                 Experience</a
               >
             </li>
             <li>
-              <a href="#6">
+              <a href="#contact">
                 <i class="fa-solid fa-chevron-right"></i>
                 Contact</a
               >
