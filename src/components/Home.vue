@@ -24,6 +24,38 @@ export default {
 
 <template>
   <div class="header" id="home">
+    <div id="particle-container">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
     <div class="jumbotron container">
       <div class="who-am-i">
         <h1>Hey there,</h1>
@@ -62,6 +94,37 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.particle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+@for $i from 1 through 30 {
+  @keyframes particle-animation-#{$i} {
+    100% {
+      transform: translate3d(
+        (random(90) * 1vw),
+        (random(90) * 1vh),
+        (random(100) * 1px)
+      );
+    }
+  }
+
+  .particle:nth-child(#{$i}) {
+    animation: particle-animation-#{$i} 15s infinite;
+    $size: random(5) + 5 + px;
+    opacity: random(100) / 100;
+    height: $size;
+    width: $size;
+    animation-delay: -$i * 0.2s;
+    transform: translate3d(
+      (random(90) * 1vw),
+      (random(90) * 1vh),
+      (random(100) * 1px)
+    );
+    background: hsl(random(360), 70%, 50%);
+  }
+}
 .header {
   height: 100vh;
   width: 100%;

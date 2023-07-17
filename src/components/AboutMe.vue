@@ -41,7 +41,7 @@ export default {
 
       <div class="my-card">
         <div class="my-img">
-          <img src="../../public/img/1.jpg" alt="" />
+          <img src="../../public/img/1.jpeg" alt="" />
         </div>
         <div class="infos">
           <h3>I'm Francesco</h3>
@@ -103,7 +103,7 @@ export default {
       height: 400px;
       object-fit: cover;
       border-radius: 20px;
-      filter: grayscale(0.7);
+      filter: grayscale(0.9);
       transform: scale(1);
       transition: all 1s;
       box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.699);
