@@ -5,7 +5,7 @@ export default {
       projects: [
         {
           name: "Deliveboo",
-          desc: "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+          desc: "Description: In Progress",
           image: "deliveboo",
           links: {
             view: "https://github.com/FrancescoThomasFalanga/progetto-finale",
@@ -14,7 +14,7 @@ export default {
         },
         {
           name: "Barber Shop",
-          desc: "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+          desc: "Description: In Progress",
           image: "barber-shop",
           links: {
             view: "https://ciccio-dev-avada.netlify.app/",
@@ -23,7 +23,7 @@ export default {
         },
         {
           name: "Portfolio Idea",
-          desc: "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+          desc: "Description: In Progress",
           image: "portfolio",
           links: {
             view: "https://ciccio-dev.netlify.app/",
@@ -32,7 +32,7 @@ export default {
         },
         {
           name: "DC Comics",
-          desc: "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+          desc: "Description: In Progress",
           image: "dc-comics",
           links: {
             view: "https://ciccio-dc-comics.netlify.app/",
@@ -41,7 +41,7 @@ export default {
         },
         {
           name: "Netflix",
-          desc: "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+          desc: "Description: In Progress",
           image: "boolflix",
           links: {
             view: "https://ciccio-dev-boolflix.netlify.app/",
@@ -50,7 +50,7 @@ export default {
         },
         {
           name: "Whatsapp",
-          desc: "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+          desc: "Description: In Progress",
           image: "boolzapp",
           links: {
             view: "https://ciccio-dev-boolzap.netlify.app/",
