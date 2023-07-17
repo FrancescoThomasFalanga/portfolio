@@ -145,4 +145,24 @@ export default {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .jumbotron {
+    flex-direction: column-reverse;
+    top: 35%;
+    .my-img {
+      img {
+        max-width: 300px;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+    }
+
+    .who-am-i {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+}
 </style>

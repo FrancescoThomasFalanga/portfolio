@@ -75,21 +75,13 @@ export default {
     border-radius: 50px;
     gap: 20px;
   }
+}
 
-  .mine .skills .bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .mine .skills .bar .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 20px;
+@media (max-width: 768px) {
+  .mine {
+    h2 {
+      padding: 0;
+    }
   }
 }
 </style>

@@ -159,4 +159,23 @@ export default {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .mine {
+    height: 100%;
+  }
+
+  .my-card {
+    margin-top: 0;
+    flex-direction: column;
+
+    .infos {
+      text-align: center;
+    }
+
+    .resume {
+      justify-content: center;
+    }
+  }
+}
 </style>

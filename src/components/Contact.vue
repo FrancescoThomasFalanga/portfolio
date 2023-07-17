@@ -126,4 +126,16 @@ export default {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .mine .my-form {
+    flex-direction: column;
+
+    .img {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
 </style>

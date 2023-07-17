@@ -120,4 +120,33 @@ export default {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .mine {
+    .my-cards {
+      .card-1,
+      .card-2 {
+        flex-direction: column;
+      }
+    }
+
+    padding-bottom: 50px;
+  }
+  .mine .my-cards .card-1 .img img,
+  .mine .my-cards .card-2 .img img {
+    width: 100%;
+    max-width: none;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .mine .my-cards .card-2 .img {
+    width: 100%;
+  }
+
+  .mine .my-cards .card-1 .infos,
+  .mine .my-cards .card-2 .infos {
+    padding: 0 15px;
+  }
+}
 </style>

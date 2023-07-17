@@ -33,6 +33,12 @@ export default {
             Thank you for visiting my personal portfolio website. Connect with
             me over socials.
           </span>
+
+          <span
+            style="display: block; margin-top: 50px; color: rgb(197, 197, 197)"
+          >
+            The geeks will inherit the earth. 💸💸
+          </span>
         </div>
 
         <div class="middle">
@@ -90,7 +96,7 @@ export default {
           <ul>
             <li>
               <i class="fa-solid fa-phone-flip"></i>
-              <span>-39 3925093153</span>
+              <span>+39 392-509-3153</span>
             </li>
             <li>
               <i class="fa-solid fa-envelope"></i>
@@ -141,9 +147,12 @@ export default {
     flex-direction: column;
     justify-content: center;
     // align-items: center;
+    padding: 0 15px;
 
     .links {
       display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
       //   justify-content: space-between;
 
       .left {
@@ -178,6 +187,8 @@ export default {
       }
 
       .right {
+        flex: 1;
+
         h3 {
           font-weight: normal;
         }
@@ -247,6 +258,45 @@ export default {
     .ciao {
       text-align: center;
       margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .my-container {
+      .links {
+        flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        padding: 0 40px;
+
+        .middle {
+          border-top: 2px solid white;
+          padding-top: 20px;
+          margin-left: 0;
+          margin-top: 20px;
+
+          ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+          }
+        }
+
+        .right {
+          margin-top: 20px;
+
+          ul {
+            li {
+              font-size: 14px;
+            }
+          }
+        }
+
+        .social {
+          ul {
+            justify-content: center;
+          }
+        }
+      }
     }
   }
 }
