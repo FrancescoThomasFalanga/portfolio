@@ -109,9 +109,6 @@ export default {
           color: #012970;
         }
 
-        span {
-        }
-
         h5 {
           padding-top: 15px;
           font-weight: bold;
