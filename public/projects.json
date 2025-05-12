@@ -1,5 +1,41 @@
 [
   {
+    "name": "Assemblaggi In Conto Terzi",
+    "desc": "Description: In Progress",
+    "image": "assemblaggiincontoterzi",
+    "links": {
+      "view": "https://assemblaggiincontoterzi.it/",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Gruppo Pelizza",
+    "desc": "Description: In Progress",
+    "image": "gruppopelizza",
+    "links": {
+      "view": "https://gruppopelizza.it/",
+      "code": "#"
+    }
+  },
+    {
+    "name": "Gi. La. Srl",
+    "desc": "Description: In Progress",
+    "image": "gilasrl",
+    "links": {
+      "view": "https://gi-lasrl.it/",
+      "code": "#"
+    }
+  },
+    {
+    "name": "Italfer",
+    "desc": "Description: In Progress",
+    "image": "italfer",
+    "links": {
+      "view": "https://italfersrl.it/",
+      "code": "#"
+    }
+  },
+  {
     "name": "Deliveboo",
     "desc": "Description: In Progress",
     "image": "deliveboo",

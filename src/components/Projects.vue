@@ -4,58 +4,58 @@ export default {
     return {
       projects: [
         {
-          name: "Deliveboo",
-          desc: "Description: In Progress",
-          image: "deliveboo",
-          links: {
-            view: "https://github.com/FrancescoThomasFalanga/progetto-finale",
-            code: "https://github.com/FrancescoThomasFalanga/progetto-finale",
-          },
+          "name": "Assemblaggi In Conto Terzi",
+          "desc": "Description: In Progress",
+          "image": "assemblaggiincontoterzi",
+          "links": {
+            "view": "https://assemblaggiincontoterzi.it/",
+            "code": "#"
+          }
         },
         {
-          name: "Barber Shop",
-          desc: "Description: In Progress",
-          image: "barber-shop",
-          links: {
-            view: "https://ciccio-dev-avada.netlify.app/",
-            code: "https://github.com/FrancescoThomasFalanga/proj-html-vuejs",
-          },
+          "name": "Gruppo Pelizza",
+          "desc": "Description: In Progress",
+          "image": "gruppopelizza",
+          "links": {
+            "view": "https://gruppopelizza.it/",
+            "code": "#"
+          }
+        },
+          {
+          "name": "Gi. La. Srl",
+          "desc": "Description: In Progress",
+          "image": "gilasrl",
+          "links": {
+            "view": "https://gi-lasrl.it/",
+            "code": "#"
+          }
+        },
+          {
+          "name": "Italfer",
+          "desc": "Description: In Progress",
+          "image": "italfer",
+          "links": {
+            "view": "https://italfersrl.it/",
+            "code": "#"
+          }
         },
         {
-          name: "Portfolio Idea",
-          desc: "Description: In Progress",
-          image: "portfolio",
-          links: {
-            view: "https://ciccio-dev.netlify.app/",
-            code: "https://github.com/FrancescoThomasFalanga/laravel-api",
-          },
+          "name": "Deliveboo",
+          "desc": "Description: In Progress",
+          "image": "deliveboo",
+          "links": {
+            "view": "https://github.com/FrancescoThomasFalanga/progetto-finale",
+            "code": "https://github.com/FrancescoThomasFalanga/progetto-finale"
+          }
         },
         {
-          name: "DC Comics",
-          desc: "Description: In Progress",
-          image: "dc-comics",
-          links: {
-            view: "https://ciccio-dc-comics.netlify.app/",
-            code: "https://github.com/FrancescoThomasFalanga/vite-comics",
-          },
-        },
-        {
-          name: "Netflix",
-          desc: "Description: In Progress",
-          image: "boolflix",
-          links: {
-            view: "https://ciccio-dev-boolflix.netlify.app/",
-            code: "https://github.com/FrancescoThomasFalanga/vite-boolflix",
-          },
-        },
-        {
-          name: "Whatsapp",
-          desc: "Description: In Progress",
-          image: "boolzapp",
-          links: {
-            view: "https://ciccio-dev-boolzap.netlify.app/",
-            code: "https://github.com/FrancescoThomasFalanga/vue-boolzapp",
-          },
+          "name": "Barber Shop",
+          "desc": "Description: In Progress",
+          "image": "barber-shop",
+          "links": {
+            "view": "https://ciccio-dev-avada.netlify.app/",
+            "code": "https://github.com/FrancescoThomasFalanga/proj-html-vuejs"
+          }
         },
       ],
     };
@@ -124,8 +124,8 @@ export default {
   position: relative;
   z-index: 2;
   //   margin-top: 60px;
-  padding-top: 70px;
-  padding-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 50px;
 
   h2 {
     text-align: center;

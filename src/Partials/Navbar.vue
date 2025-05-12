@@ -44,7 +44,7 @@ export default {
 <template>
   <nav class="container-fluid">
     <div class="logo">
-      <a href="/#home">Ciccio</a>
+      <a href="/">Ciccio</a>
     </div>
 
     <div class="hamburger" @click="isMenuOpen = !isMenuOpen">

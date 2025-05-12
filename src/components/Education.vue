@@ -60,7 +60,8 @@ export default {
   position: relative;
   z-index: 2;
   //   margin-top: 60px;
-  padding-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 
   h2 {
     text-align: center;

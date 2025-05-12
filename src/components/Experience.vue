@@ -34,7 +34,7 @@ export default {
   position: relative;
   z-index: 2;
   // margin-top: 60px;
-  padding-top: 60px;
+  padding-top: 80px;
 
   h2 {
     text-align: center;

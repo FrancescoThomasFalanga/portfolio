@@ -78,7 +78,7 @@ export default {
 .mine {
   background-color: white;
   width: 100%;
-  height: calc(100vh);
+  // height: calc(100vh);
   position: relative;
   z-index: 2;
   margin-top: 60px;
